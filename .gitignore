@@ -1,0 +1,12 @@
+.env
+**/.env
+node_modules/
+**/node_modules/
+outputs/
+upload/
+dist/
+*.zip
+growth_workbench/data/
+growth_workbench/logs/
+growth_workbench/runtime/
+growth_workbench/backups/

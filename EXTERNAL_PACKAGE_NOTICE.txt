@@ -1,0 +1,6 @@
+Growth Workbench V0.1 安全交付说明
+
+本包默认不含 .env、API Key、真实脚本、用户反馈、Content OS 数据库快照或内部语料。
+运行前请复制 growth_workbench/.env.example 为 .env，并设置 CONTENT_OS_ROOT 指向本机受控的 Content OS 根目录。
+请勿把 API Key 写入准备外发的副本。
+仅限私有本机备份时，才可显式设置 INCLUDE_LOCAL_ENV=1 与 INCLUDE_LOCAL_DATA=1。

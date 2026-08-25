@@ -1,0 +1,58 @@
+{
+  "package": "Yujie_Growth_Workbench_V0.1_OPENROUTER_FLYWHEEL_01_Windows",
+  "version": "0.1.3",
+  "status": "GROWTH_WORKBENCH_V0.1_FLYWHEEL_RECTIFICATION_01",
+  "built_at": "2026-08-25T07:46:03.645Z",
+  "startup": "启动屿洁说干货工作台.bat",
+  "diagnostic_startup": "诊断并启动.bat",
+  "stop": "停止屿洁说干货工作台.bat",
+  "runtime": {
+    "node": "20+",
+    "npm_install_required": false,
+    "content_os_root_required": true
+  },
+  "listen": "http://127.0.0.1:4310",
+  "security": {
+    "contains_local_env": false,
+    "contains_local_data": false,
+    "data_mode": "empty_external_template",
+    "distribution": "shareable_without_api_key_or_user_data",
+    "internal_corpus_included": false,
+    "outputs_included": false
+  },
+  "lin_style": {
+    "style_pack": "1.0.0",
+    "default_mode": "lin",
+    "pass_threshold": 82,
+    "api_key_in_package": false
+  },
+  "feedback_flywheel": {
+    "schema_version": "feedback_flywheel_v2",
+    "rule_activation": "human_confirmation_required",
+    "verified_internal_effect": "none",
+    "content_os_schema_effect": "none"
+  },
+  "content_os": {
+    "database_included": false,
+    "external_root_required": true,
+    "schema_migrated": false,
+    "verified_internal_modified": false,
+    "brand_thesis_governance_modified": false,
+    "content_skill": "0.5.0 locked"
+  },
+  "required_file_hashes": {
+    "启动屿洁说干货工作台.bat": "b2a00d099bf784aa013dec62a1e6a10102a390747b40f538fb051ea5e4b4c4f4",
+    "诊断并启动.bat": "252f04dfd55254ae6a56611a8cc30057568b90411291652211df18aa73f2d6c0",
+    "停止屿洁说干货工作台.bat": "1f585d894ed55a5e72bc1953fda89ba8d590951c46bc333cb6cc4967bad3607f",
+    "growth_workbench/server.mjs": "3366cb47dcff7ae49c4b42401f3d7242bbef7f8293861624c40118b89c34ea09",
+    "growth_workbench/scripts/windows-diagnose.mjs": "52eff11a7557e7402252d36487354902be4bca20431d2e69e31d4e97581aaa0a",
+    "growth_workbench/scripts/stop-workbench.mjs": "c2c91230497f452531458e776d2c2bcc0e6ff13bd4b4d701c373ac5d62603600",
+    "growth_workbench/src/lin-composer.mjs": "679c5f1d301c864aa0a91465fcaf3da6e623e19f104fa77af4d3986e230899f8",
+    "growth_workbench/src/style-linter.mjs": "7687a46d6395647deeaddd0c779e6738a597d76bc04a058910dea0166f76bafb",
+    "growth_workbench/src/styled-script-service.mjs": "b2b0c27f957c34b4ff96348294c8fa4d4dd3493bfad2e4d7dcbe33c3a22c46f5",
+    "growth_workbench/config/lin-style-pack.json": "20c535066089bd6dd45481e0104e55c5a31e7ea930d15c6586953eb58f600f98",
+    "growth_workbench/config/lin-fewshot.json": "e8c1f4583cd54e27b79354c084344bb7ca0d53a853e8a7fd4b43764d5c59243a",
+    "growth_workbench/src/feedback-flywheel.mjs": "523f408b5d461d557ff2f6b114c587ef3e97d3fe86012084bd39674581b2df93",
+    "growth_workbench/.env.example": "001710f9a7bdbcdfdc41ae77217ba36c605e9e703c4f554e2637f8793e6500dc"
+  }
+}

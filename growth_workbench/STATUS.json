@@ -1,0 +1,83 @@
+{
+  "product": "屿洁说干货 Growth Workbench",
+  "version": "0.1.3",
+  "status": "GROWTH_WORKBENCH_V0.1_FLYWHEEL_RECTIFICATION_01",
+  "content_os": {
+    "status": "PRODUCTION_READY_WITH_JIT_GOVERNANCE",
+    "content_skill": "0.5.0 locked",
+    "database_migrated": false,
+    "schema_modified": false,
+    "verified_internal_modified": false,
+    "brand_thesis_governance_modified": false
+  },
+  "regression_test": {
+    "status": "PASS",
+    "automated_checks": 71,
+    "automated_check_breakdown": {
+      "usability": 24,
+      "lin_style_smoke": 13,
+      "local_openrouter_compatible_e2e": 23,
+      "flywheel_quality": 11
+    },
+    "browser_click_regression": "PASS",
+    "browser_console_errors": 0
+  },
+  "usability_fix": {
+    "immutable_script_versions": true,
+    "real_url_extraction_before_analysis": true,
+    "one_theme_four_cuts": true,
+    "single_default_script_generation": true,
+    "main_navigation_items": 5
+  },
+  "lin_style": {
+    "style_pack": "1.0.0",
+    "default_generation_mode": "lin",
+    "legacy_template_fallback_preserved": true,
+    "pass_threshold": 82,
+    "positive_sample_average": 89.4,
+    "local_openai_compatible_e2e": "PASS",
+    "external_provider_call": "PASS",
+    "external_provider": "OpenRouter",
+    "external_model": "stealth/ox-alpha",
+    "live_probe_score": null,
+    "live_probe_style_passed": null,
+    "live_probe_note": "旧版74分探针已废弃；真实外部模型不纳入主回归，避免把网络波动当作代码质量",
+    "cta_no_asset_regression_score": 100,
+    "cta_no_asset_regression_passed": true,
+    "sensitive_knowledge_redaction_default": true,
+    "api_key_in_package": false,
+    "package_distribution": "shareable_without_api_key_or_user_data"
+  },
+  "feedback_flywheel": {
+    "schema_version": "feedback_flywheel_v2",
+    "full_review_snapshot": true,
+    "revision_pairs": true,
+    "rule_activation": "human_confirmation_required",
+    "direct_shoot_positive_examples": true,
+    "existing_feedback_migrated": 0,
+    "paired_revision_events": 0,
+    "positive_examples": 0,
+    "pending_rules": 0,
+    "active_rules": 0,
+    "rejected_rules": 0,
+    "verified_internal_effect": "none",
+    "content_os_schema_effect": "none",
+    "rule_effect_attribution": true,
+    "semantic_candidate_extraction": true
+  },
+  "not_started": [
+    "V0.2 External Intelligence / Industry Radar 自动抓取",
+    "V0.3 Performance Intelligence 自动数据回流",
+    "同行自动监控",
+    "抖音大规模抓取",
+    "自动发布",
+    "大规模批量脚本生产"
+  ],
+  "package_security": {
+    "contains_local_env": false,
+    "contains_local_data": false,
+    "outputs_included": false,
+    "internal_corpus_included": false,
+    "content_os_root_required": true
+  }
+}
