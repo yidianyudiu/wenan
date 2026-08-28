@@ -1,0 +1,11 @@
+{
+  "database_snapshot": "outputs/content_os_v1_phase2/postgres_data_release",
+  "topic_agent": "outputs/content_os_v1_phase3/content_research_topic_agent_v0_1.mjs",
+  "script_agent": "outputs/content_os_v1_phase4/script_agent_v0_1.mjs",
+  "retrieval_snapshot": "outputs/content_os_v1_phase4/phase4_probe.json",
+  "positive_samples": "outputs/content_os_v1_phase3_1/positive_samples_seed.json",
+  "calibration_data": "outputs/content_os_v1_final_calibration/topic_orientation_calibration_v1.0.json",
+  "topic_domain_map_image": "upload/01-png",
+  "internal_ingestion": "outputs/content_os_v1_ingestion",
+  "incremental_review": "outputs/content_os_v1_incremental_review"
+}

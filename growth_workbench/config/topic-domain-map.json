@@ -1,0 +1,10 @@
+{
+  "source_type": "topic_direction_constraint",
+  "source_image": "upload/01-png",
+  "fact_evidence_allowed": false,
+  "domains": [
+    {"id":"new_venue","name":"新馆经营","children":["选址","开业筹备","定价","人员架构","盈利"]},
+    {"id":"teaching","name":"教学培训","children":["课程类别","技术路径","教练培养","教学考核"]},
+    {"id":"store_ops","name":"探店与老馆运营","children":["巡店","经营分析","社群","活动赛事"]}
+  ]
+}

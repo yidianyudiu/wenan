@@ -1,0 +1,10 @@
+{
+  "governance": "Brand Thesis 与 verified_internal、market_claim、human_supplied_case 永久分开；不得冒充客观行业事实。",
+  "items": [
+    {"id":"BT-01","title":"培训是核心盈利能力","statement":"培训业务是球馆核心盈利能力。","status":"brand_thesis_candidate","risk":"绝对化的‘唯一出路’不得作为客观行业事实。"},
+    {"id":"BT-02","title":"教学必须标准化","statement":"专业培训不能高度依赖单个教练个人经验，应建立课程、教学、成长路径和考核标准。","status":"brand_thesis_candidate","risk":"不能据此推断所有门店已经完全落地。"},
+    {"id":"BT-03","title":"经营需要系统","statement":"球馆需要通过馆长、团队、指标、产品和标准化运营形成经营系统。","status":"brand_thesis_candidate","risk":"岗位结构必须忠实使用老板、馆长、课程顾问、前台、教练。"},
+    {"id":"BT-04","title":"开业是经营启动","statement":"新馆开业是完整经营启动过程，不等于开业当天的活动。","status":"brand_thesis_candidate","risk":"具体时间表、数字和效果仍需证据支持。"},
+    {"id":"BT-05","title":"社群是用户资产","statement":"社群是获客、关系经营、培训转化、装备及赛事运营的重要用户资产。","status":"brand_thesis_candidate","risk":"社群方法不能自动证明营收因果。"}
+  ]
+}
