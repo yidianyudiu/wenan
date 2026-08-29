@@ -1,0 +1,18 @@
+{
+  "name": "yujie-growth-workbench",
+  "version": "0.1.5",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests/usability-fix.mjs && node test/lin-smoke.mjs && node --test test/usability-quality-fix.mjs test/flywheel-quality.mjs && node test/lin-api.mjs",
+    "smoke": "node tests/usability-fix.mjs && node test/lin-smoke.mjs && node --test test/usability-quality-fix.mjs",
+    "lin:smoke": "node test/lin-smoke.mjs",
+    "lin:calibration": "node tools/ingest-calibration.mjs",
+    "openrouter:check": "node test/openrouter-live.mjs",
+    "backup": "node scripts/backup.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

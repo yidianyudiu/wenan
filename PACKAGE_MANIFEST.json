@@ -1,0 +1,75 @@
+{
+  "package": "Yujie_Growth_Workbench_V0.1_AUDIT_RECTIFICATION_02_Windows",
+  "version": "0.1.5",
+  "status": "GROWTH_WORKBENCH_V0.1_AUDIT_RECTIFICATION_02_READY",
+  "built_at": "2026-08-29T02:18:09.783Z",
+  "startup": "启动屿洁说干货工作台.bat",
+  "diagnostic_startup": "诊断并启动.bat",
+  "stop": "停止屿洁说干货工作台.bat",
+  "runtime": {
+    "node": "20+",
+    "npm_install_required": false,
+    "content_os_root_required": true
+  },
+  "listen": "http://127.0.0.1:4310",
+  "security": {
+    "contains_local_env": false,
+    "contains_local_data": false,
+    "data_mode": "empty_external_template",
+    "distribution": "shareable_without_api_key_or_user_data",
+    "internal_corpus_included": false,
+    "outputs_included": false
+  },
+  "lin_style": {
+    "style_pack": "1.0.0",
+    "fewshot_pack": "1.1.0",
+    "default_mode": "lin",
+    "pass_threshold": 82,
+    "api_key_in_package": false,
+    "external_model": "minimax/minimax-m3:free",
+    "max_completion_tokens": 12000,
+    "silent_template_fallback": false,
+    "external_grounding_gate": true
+  },
+  "feedback_flywheel": {
+    "schema_version": "feedback_flywheel_v2",
+    "rule_activation": "human_confirmation_required",
+    "revision_pair_rebuild": "exported_pure_function",
+    "effect_avg_score_delta": "mean_applied_minus_mean_not_applied",
+    "reconstruction_warning_ui": true,
+    "verified_internal_effect": "none",
+    "content_os_schema_effect": "none"
+  },
+  "content_os": {
+    "database_included": false,
+    "external_root_required": true,
+    "schema_migrated": false,
+    "verified_internal_modified": false,
+    "brand_thesis_governance_modified": false,
+    "content_skill": "0.5.0 locked"
+  },
+  "required_file_hashes": {
+    "启动屿洁说干货工作台.bat": "b2a00d099bf784aa013dec62a1e6a10102a390747b40f538fb051ea5e4b4c4f4",
+    "诊断并启动.bat": "252f04dfd55254ae6a56611a8cc30057568b90411291652211df18aa73f2d6c0",
+    "停止屿洁说干货工作台.bat": "1f585d894ed55a5e72bc1953fda89ba8d590951c46bc333cb6cc4967bad3607f",
+    "growth_workbench/server.mjs": "4dc5b83a48110117261471947eef816807d865429bc5c96297b1f2150c88782d",
+    "growth_workbench/scripts/windows-diagnose.mjs": "dfc16a66712985695671d9e5bc018b6eda6a8de8d24d05885690ddef1057241d",
+    "growth_workbench/scripts/stop-workbench.mjs": "c2c91230497f452531458e776d2c2bcc0e6ff13bd4b4d701c373ac5d62603600",
+    "growth_workbench/src/lin-composer.mjs": "28320bcf29b7ba9854d2e84f31fd2a63d6494136dd52a044834749e829672385",
+    "growth_workbench/src/style-linter.mjs": "30f4bb0fa09921673523900a0b48487d1d762cb6fffd813246caecb5e7848789",
+    "growth_workbench/src/styled-script-service.mjs": "1e2637347d9d2ccc401a040c1611f14be980a12300c7ffc39c1dba8245a85180",
+    "growth_workbench/config/lin-style-pack.json": "20c535066089bd6dd45481e0104e55c5a31e7ea930d15c6586953eb58f600f98",
+    "growth_workbench/config/lin-fewshot.json": "1b16a4165e2aa38ef9d2735fdbf4c8953c612ccd61217b21fd0e17150a7a9a8f",
+    "growth_workbench/src/topic-generator.mjs": "4cf6f4c03352a2f61b983c80756cecf04b45f2b770e91214702c140bc84c02df",
+    "growth_workbench/src/content-os-adapter.mjs": "da36d8b8d47a6d4ca618580af9c9bd9e05fe8fd1f11da7173c2a07068517d5fb",
+    "growth_workbench/src/gates.mjs": "e218bf70a0c3655b9c6bab08231c41fb90a1f104bac001940ac47f7786b3716f",
+    "growth_workbench/src/url-content-extractor.mjs": "7a2f26b4e2ddd4c269f7c8f572a03f45e22ae5d6fb4fdcf6faf1716811d5f3cc",
+    "growth_workbench/src/feedback-flywheel.mjs": "969c00fd2a906773ae44e588c89942586ca1a2eb467ed0d60881d24a0e0f7d45",
+    "growth_workbench/public/app.js": "e5626aa2310beb7c2f1d54f4ad55b26f1bc1cf8830ca9fe8b44db908a74bb09b",
+    "growth_workbench/public/styles.css": "45793089325a86c601629f2515a70e2628446a2e8e557704a94b1ff0d62b8bea",
+    "growth_workbench/test/package.json": "1b1beb8e00904b94b90020c9471c55854d666346f5dfaae396d344af27375e71",
+    "growth_workbench/test/flywheel-quality.mjs": "bbf4ca7a1533815be824fc0ee6e32abe3389c5348e2a3046ab823ffd0be60e50",
+    "growth_workbench/test/usability-quality-fix.mjs": "9ff8bc95de3f48c38778213052a55a20f80a46f2df0ecdf341afd6d7c3f072ca",
+    "growth_workbench/.env.example": "7fb2f80043ae1af37102296066a8888a08d108e1a763e82c0ed7990c4dbbe096"
+  }
+}

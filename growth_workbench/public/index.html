@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>屿洁说干货 Growth Workbench</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">屿</div>
+      <div><strong>屿洁说干货</strong><span>Growth Workbench V0.1</span></div>
+    </div>
+    <nav id="nav" aria-label="主导航">
+      <button data-view="dashboard" class="active">今日作战台</button>
+      <button data-view="topics">选题池</button>
+      <button data-view="inspiration">灵感收件箱</button>
+      <button data-view="to-shoot">待拍内容</button>
+      <button data-view="knowledge">资料库</button>
+    </nav>
+    <nav id="nav-secondary" class="nav-secondary" aria-label="设置导航">
+      <button data-view="settings">设置与数据</button>
+    </nav>
+    <div class="system-card"><span class="status-dot"></span><div><b>Content OS 已连接</b><small>V0.5 locked · JIT Governance</small></div></div>
+  </aside>
+  <main>
+    <header>
+      <div><p class="eyebrow">CONTENT GROWTH SYSTEM</p><h1 id="page-title">今日作战台</h1></div>
+      <div class="header-actions"><span class="version-pill">USABILITY FIX 01</span><span id="clock"></span></div>
+    </header>
+    <div id="notice" class="notice hidden" role="status"></div>
+    <section id="app"><div class="loading">正在连接 Content OS…</div></section>
+  </main>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
+
